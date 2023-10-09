@@ -1,0 +1,31 @@
+*{
+    border: none;
+}
+body{
+    margin: 50px;
+    background: linear-gradient(blue,yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+table{
+    text-align: center;
+    padding: 10px;
+    /* border-color:  #c4dcf3; */
+    
+} 
+th,
+td{
+    padding: 25px;
+    
+}
+table tr:nth-child(2n){
+    background-color:#eef7ff ;
+}
+
+table tr:first-of-type {
+    background-color:#427fef; 
+}
+table tr:last-of-type{
+    background-color:#427fef; 
+}
